@@ -1,0 +1,43 @@
+# Site settings
+title: iDisconnect
+subject: "Because disconnect absent is much better."
+
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "/idisconnect" # the subpath of your site, e.g. /blog/
+url: "https://williamcanin.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Destination
+destination: ./gh-pages
+
+# default: /:categories/:year/:month/:day/:title.html
+permalink: /:title
+
+# Strings layouts
+layout:
+  release_launched: true # { true | false }
+  development_home: https://github.com/williamcanin/idisconnect
+  brand: brand-logotype.svg
+  front: logotype_idisconnect.svg
+  page_title: Other Distributions
+  project_title: Development
+  # title_kernel: Kernel
+  # title_task: task
+  latest_stable: 1.0.25
+  package_extension: EXE
+  url_latest_stable: "https://github.com/williamcanin/idisconnect/blob/master/free/installer/iDisconnect_v1025_free_Setup.zip?raw=true"
+
+include:
+  - _pages
+
+exclude:
+  - bower.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock

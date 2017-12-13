@@ -1,0 +1,23 @@
+
+
+hibernar apenas o monitor:
+
+SendMessage(Application.Handle, WM_SYSCOMMAND,
+SC_MONITORPOWER, 1);
+//Sleep(5000); { Aguarde 5 segundos }
+//SendMessage(Application.Handle, WM_SYSCOMMAND,
+//SC_MONITORPOWER, -1);
+
+
+
+
+hibernar o computador:
+
+RunDll32.exe powrprof.dll,SetSuspendState
+
+
+só por curiosidade...
+log off - %windir%\System32\shutdown.exe -l -t 00
+reiniciar - %windir%\System32\shutdown.exe -r -t 00
+
+%windir%\system32 undll32.exe powrprof.dll,SetSuspendState

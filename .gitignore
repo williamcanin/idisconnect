@@ -2,12 +2,15 @@
 .git
 /**/.DS_Store
 /**/*.*~
-/**/*log
+/**/*.lock
+/**/*.log
 /**/*.temp
 /**/*_site
-/**/*vendor
+/**/*/_vendor
 /**/*.sass-cache
 /**/*gh-pages
+page/gh-pages
+page/_vendor
 
 # Development
 notes/

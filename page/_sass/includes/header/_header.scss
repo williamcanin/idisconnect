@@ -1,0 +1,42 @@
+.is-selected{
+  box-shadow: inset 0 -4px 0 0 #fff;
+  max-width: 140px;
+}
+
+.col-brand{
+  img {
+  margin-top: -3px;
+  max-width: 150px;
+  max-height: 50px;
+  }
+}
+.navbar-default{
+  background-color: $color_primary;
+  border-bottom: 1px solid #000;
+  border-radius: 0px;
+  min-height: 70px;
+  .container{
+    .navbar-header{
+      min-height: 70px;
+      .navbar-toggle{
+        border: none;
+        border-radius: 0px;
+        background-color: #000;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.navbar-nav{
+  margin-top: 13px;
+  li{
+    a{
+      font-size: 2.1rem;
+      color: #fff !important;
+      &:hover{
+        box-shadow: inset 0 -4px 0 0 #000;
+      }
+    }
+  }
+}

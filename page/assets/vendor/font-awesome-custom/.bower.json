@@ -1,0 +1,36 @@
+{
+  "name": "font-awesome-custom",
+  "description": "Font Awesome Custom",
+  "version": "1.0.5",
+  "keywords": [],
+  "homepage": "http://fontawesome.io",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": [
+    "OFL-1.1",
+    "MIT",
+    "CC-BY-3.0"
+  ],
+  "main": [
+    "./css/font-awesome.css",
+    "./fonts/*"
+  ],
+  "ignore": [
+    "*/.*",
+    "*.json",
+    "src",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ],
+  "_release": "1.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.5",
+    "commit": "5aef9d048851701960fd870506603bcb01549c47"
+  },
+  "_source": "https://github.com/williamcanin/font-awesome-custom.git",
+  "_target": "~1.0.3",
+  "_originalSource": "font-awesome-custom"
+}

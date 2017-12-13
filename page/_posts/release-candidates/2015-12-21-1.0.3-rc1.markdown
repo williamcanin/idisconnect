@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "1.0.25-rc1"
+date:   2015-08-28 23:32:02
+categories: project
+published: false
+url_latest_stable: http://williamcanin.com
+type_version: Release Candidate
+package_version: 1.0.25-rc1
+package_extension: EXE
+---

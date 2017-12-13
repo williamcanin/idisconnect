@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/07/12 13:55:41.085.pas,C:\Users\william\Desktop\Video-Aula-Delphi\Aula1-Desligador\Forms\U_principal.pas=C:\Users\william\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/07/12 13:55:41.085.dfm,C:\Users\william\Desktop\Video-Aula-Delphi\Aula1-Desligador\Forms\U_principal.dfm=C:\Users\william\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013/07/12 13:55:57.750.dproj,C:\Users\william\Desktop\Video-Aula-Delphi\Aula1-Desligador\Bin\Project1.dproj=C:\Users\william\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,40 @@
+self-service
+auto
+agent
+off
+
+leave, exit, go out, get out, get off, move out
+morrer
+die, perish, go, pass away, expire, succumb
+exit-substantivo
+saÌda
+output, out, outlet, exit, departure, way out
+morte
+death, dying, demise, passing, decease, doom
+
+
+Getoutt
+GetOff
+Agent Shutdown
+TimeCount
+CountDown
+Against Time (Againstime)
+PC OFF
+Machine Shutdown
+Machine Off
+Auto
+TimerBomb
+Time
+Progoff
+ShutBomb
+Desliga !
+Desconecta !
+Off Me (OffMee,HoffMee,OffMe)
+Unplug (ja existe um programa de extens„o)
+OFF A !
+iUnplug 
+Unplugg
+
+
+
+

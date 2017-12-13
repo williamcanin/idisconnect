@@ -1,0 +1,60 @@
+procedure Tfrm_opcoes.CheckBox5Click(Sender: TObject);
+begin
+frm_principal.Cliquis;frm_principal.sSkinManager1.Active := CheckBox5.Checked;
+//ComboBox1.Enabled := frm_principal.sSkinManager1.Active;
+
+if CheckBox5.Checked = true then
+begin
+REG := TRegistry.Create;
+REG.RootKey := HKEY_LOCAL_MACHINE;
+REG.OpenKey('Software\WOFF',true);
+REG.WriteInteger('T3m',1);
+REG.CloseKey;
+REG.Free;
+
+CheckBox1.Refresh;
+CheckBox2.Refresh;
+CheckBox3.Refresh;
+CheckBox4.Refresh;
+CheckBox5.Refresh;
+end
+else
+begin
+REG := TRegistry.Create;
+REG.RootKey := HKEY_LOCAL_MACHINE;
+REG.OpenKey('Software\WOFF',true);
+REG.WriteInteger('T3m',0);
+REG.CloseKey;
+REG.Free;
+sDragBar2.Color:= clBtnFace;
+sDragBar1.Color:= clBtnFace;
+sDragBar2.Refresh;
+sDragBar1.Refresh;
+
+// frm_principal
+frm_principal.sDragBar1.Color:= clBtnFace;
+frm_principal.sDragBar2.Color:= clBtnFace;
+frm_principal.sDragBar3.Color:= clBtnFace;
+frm_principal.sDragBar4.Color:= clBtnFace;
+frm_principal.sDragBar5.Color:= clBtnFace;
+frm_principal.sDragBar6.Color:= clBtnFace;
+frm_principal.sDragBar7.Color:= clBtnFace;
+
+frm_principal.sDragBar1.Refresh;
+frm_principal.sDragBar2.Refresh;
+frm_principal.sDragBar3.Refresh;
+frm_principal.sDragBar4.Refresh;
+frm_principal.sDragBar5.Refresh;
+frm_principal.sDragBar6.Refresh;
+frm_principal.sDragBar7.Refresh;
+//frm_principal.btn_criarmsg.Font.Color:=clblack;
+
+
+CheckBox1.Refresh;
+CheckBox2.Refresh;
+CheckBox3.Refresh;
+CheckBox4.Refresh;
+CheckBox5.Refresh;
+end;
+
+end;

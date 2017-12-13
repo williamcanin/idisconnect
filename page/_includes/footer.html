@@ -1,0 +1,62 @@
+<!-- Footer -->
+<footer>
+  <div id="nav-footer" class="container-fluid container-row-1">
+    <div class="row">
+      <div class="col-sm-3 column-1">
+        <p><h3>Taxpayers:</h3></p>
+        <ul class="ul-columns">
+          <li>
+            <a href="{{ site.url }}" target="_blank">
+              <img src="{{ "/assets/images/footer/williamcanin-favicon.png"  | prepend: site.baseurl | prepend: site.url }}" alt="The Linux Kernel"/>
+                    William Canin
+            </a>
+          </li>
+        </ul>
+
+        <p><h3>Development:</h3></p>
+
+        <ul class="ul-columns">
+          <li>
+            <a href="{{ site.layout.development_home }}" target="_blank">
+              <i class="fa fa-github"></i>
+                    iDisconnect
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="col-sm-4 column-2">
+      <p><h3>Organized by:</h3></p>
+        <a href="http://williamcanin.com" target="_blank">
+            <img style="width: 200px;" class="img-responsive" src="{{ "/assets/images/footer/iam_soft.png"  | prepend: site.baseurl | prepend: site.url }}" alt="Microsoft Windows">
+          </a>
+      </div>
+
+      <div class="col-sm-5 column-3">
+        <p><h3>A project depending on:</h3></p>
+        <div class="content-column-3">
+          <a href="http://windows.microsoft.com/pt-br/windows/downloads" target="_blank">
+            <img src="{{ "/assets/images/footer/dep-logotype.png"  | prepend: site.baseurl | prepend: site.url }}" alt="Microsoft Windows">
+            Microsoft Windows
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid container-row-2">
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="text-copyright">{{ site.title }} &copy; Copyright 2015 - {{ site.time | date: '%Y' }}</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-made-with">Site made with: <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a> and <a href="https://jekyllrb.com" target="_blank">Jekyll</a></p>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-made-by">Page maintained by: <a href="{{ site.url }}" target="_blank">William C. Canin</a></p>
+      </div>
+    </div>
+  </div>
+
+</footer>

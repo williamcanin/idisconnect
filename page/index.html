@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<header id="top" class="header">
+  <div class="text-vertical-center">
+<!--     <h1>
+      <text class="kernel_text">{{ site.layout.title_kernel }}</text><img class="four_img" src="{{ "/assets/images/front/four.svg"  | prepend: site.baseurl | prepend: site.url }}" alt=""><text class="task_text">{{ site.layout.title_task }}</text>
+    </h1> -->
+
+<!-- center-block -->
+    <img class="img-responsive center-block" src="{{ "/assets/images/front"  | prepend: site.baseurl | prepend: site.url }}/{{ site.layout.front }}" alt=""/>
+
+    <h3 class="subject">{{ site.subject }}</h3>
+
+ {% if site.layout.release_launched == true %}
+    <div class="info-for-distro">Windows 7/8/10</div>
+    <div class="container">
+      <div class="row">
+        <a href="{{ site.layout.url_latest_stable }}" class="btn btn-primary btn-default btn-download-latest text-btn-lastet-stable">
+          <div class="col-sm-9">
+            <p>Lastet Stable:<p class="latest-version">{{ site.layout.latest_stable }}</p></p>
+          </div>
+          <div class="col-sm-3">
+            <i class="fa fa-arrow-circle-o-down download-icon"></i>
+              <p>{{ site.layout.package_extension }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <a class="page-scroll see-below" href="#nav-footer">
+      <i class="fa fa-angle-double-down"></i>
+    </a>
+
+  {% else %}
+
+    <div class="coming-soon">
+        <h3>
+          Coming Soon !
+        </h3>
+    </div>
+  {% endif %}
+  </div>
+</header>

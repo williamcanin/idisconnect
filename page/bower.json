@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-skeleton",
+  "version": "1.0.0",
+  "authors": [
+    "William C. Canin <william.costa.canin@gmail.com>"
+  ],
+  "description": "Jekyll Skeleton",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "fonts-raleway": "~0.0.4",
+    "font-awesome-custom": "~1.0.3"
+  }
+}

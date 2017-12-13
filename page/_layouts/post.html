@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- CSS insert in index.scss -->
+
+<header id="top" class="header">
+  <div class="text-vertical-center">
+  <!--   <h1>
+      <text class="kernel_text">{{ site.theme.title_kernel }}</text><img class="four_img" src="{{ "/assets/images/front/four.svg"  | prepend: site.baseurl | prepend: site.url }}" alt=""><text class="task_text">{{ site.theme.title_task }}</text>
+    </h1> -->
+
+     <img class="img-responsive center-block" src="{{ "/assets/images/front"  | prepend: site.baseurl | prepend: site.url }}/{{ site.theme.front }}" alt=""/>
+
+    <h3 class="subject">{{ site.subject }}</h3>
+
+    {% if page.type_version == "Latest Stable" %}
+      <div class="info-for-distro">{{ page.title }}</div>
+    {% else %}
+      <div class="info-for-distro">Development Process</div>
+    {% endif %}
+
+    <div class="container">
+      <div class="row">
+        <a href="{{ page.url_download }}" class="btn btn-primary btn-default btn-download-latest text-btn-lastet-stable">
+          <div class="col-sm-9">
+            <p>{{ page.type_version }}<p class="latest-version">{{ page.package_version }}</p></p>
+          </div>
+          <div class="col-sm-3">
+            <i class="fa fa-arrow-circle-o-down download-icon"></i>
+              <p>{{ page.package_extension }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <a class="page-scroll see-below" href="#nav-footer">
+    <i class="fa fa-angle-double-down"></i>
+  </a>
+
+  </div>
+</header>
+
+
+<!-- <div class="container-fluid content-post">
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {{ content }}
+
+</div> -->
