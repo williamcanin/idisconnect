@@ -31,7 +31,7 @@ layout:
   # title_task: task
   latest_stable: 1.0.25
   package_extension: EXE
-  url_latest_stable: "https://github.com/williamcanin/idisconnect/blob/master/free/installer/iDisconnect_v1025_free_Setup.zip?raw=true"
+  url_latest_stable: "https://github.com/williamcanin/idisconnect/blob/master/app/installer/iDisconnect_v1025_free_Setup.zip?raw=true"
 
 include:
   - _pages

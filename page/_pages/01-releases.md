@@ -15,10 +15,10 @@ It is present on this page, all versions for download.
 
 |   Type   |   Version   |   Maintainer   |   Released   |   Download   |
 --------------|----------------| -------------|---------------
-| Installer |   1.0.25    | William C. Canin | 2013-05-09 | [link](https://localhost) |
+| Installer |   1.0.25    | William C. Canin | 2013-05-09 | [link](https://github.com/williamcanin/idisconnect/blob/master/app/installer/iDisconnect_v1025_free_Setup.zip?raw=true) |
 
 ### Stable portable
 
 |   Type   |   Version   |   Maintainer   |   Released   |   Download   |
 --------------|----------------| -------------|---------------
-| Portable |   1.0.00    | William C. Canin | 2013-05-14 | [link](https://localhost) |
+| Portable |   1.0.00    | William C. Canin | 2013-05-14 | [link](https://github.com/williamcanin/idisconnect/blob/master/app/portable/iDisconnect%20v%201.0.00%20Portable.zip?raw=true) |
