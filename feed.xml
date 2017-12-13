@@ -4,10 +4,10 @@
     <title>iDisconnect</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>https://williamcanin.github.io/idisconnect/</link>
-    <atom:link href="https://williamcanin.github.io/idisconnect/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Dec 2017 13:01:48 -0200</pubDate>
-    <lastBuildDate>Wed, 13 Dec 2017 13:01:48 -0200</lastBuildDate>
+    <link>https://williamcanin.me/idisconnect/</link>
+    <atom:link href="https://williamcanin.me/idisconnect/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Dec 2017 13:04:26 -0200</pubDate>
+    <lastBuildDate>Wed, 13 Dec 2017 13:04:26 -0200</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
   </channel>
