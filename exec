@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+case $1 in
+  build)
+    bundle exec jekyll b
+  ;;
+  serve)
+    bundle exec jekyll s
+  ;;
+  *)
+    printf "Usage: $0 { build | serve }\n"
+  ;;
+esac
